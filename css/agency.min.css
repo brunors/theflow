@@ -37,6 +37,13 @@ p.large {
   font-size: 16px
 }
 
+p.extralarge {
+  font-size: 20px;
+  font-weight: 400;
+  color: #999
+  font-family: "Raleway";
+}
+
 a, a.active, a:active, a:focus, a:hover {
   outline: 0
 }
@@ -272,6 +279,11 @@ section h3.section-subheading {
 }
 
 .service-heading {
+  margin: 15px 0;
+  text-transform: none
+}
+
+.service-text {
   margin: 15px 0;
   text-transform: none
 }
